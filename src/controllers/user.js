@@ -191,8 +191,10 @@ export default {
     else{
       hostname = webName
     }
-
-    return res.redirect(`${hostname}://login?user=${JSON.stringify(req.user)}`)
+    let url = `${hostname}://auth?user=${JSON.stringify(req.user)}`;
+    console.log(url);
+//
+    return res.redirect(url);
   },
 
 

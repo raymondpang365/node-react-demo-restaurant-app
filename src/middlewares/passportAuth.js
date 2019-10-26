@@ -10,6 +10,7 @@ export default strategyName => (req, res, next) => {
         session: false
       },
       (err, user) => {
+        console.log(user);
         req.user = user;
         next();
       }

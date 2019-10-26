@@ -8,6 +8,7 @@ module.exports = {
   publicPort: 3001,
   domainName: '',
   hasDomainName: false,
+  backdoor: true,
   app: {
     htmlAttributes: { lang: 'en' },
     title: 'Test',

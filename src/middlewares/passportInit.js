@@ -17,13 +17,11 @@ export default (req, res, next) => {
       const userFound = results.rows;
       return cb(null, userFound);
     })
-      .catch( err => {
-   //     console.log(err);
-        return cb(err);
-      });
+    .catch( err => {
+ //     console.log(err);
+      return cb(err);
+    });
   };
-
-
 
 
   const mapProfile = (platform, profile) => {
@@ -73,8 +71,6 @@ export default (req, res, next) => {
   };
 
   const loginOrCreate = (platform, userFound, profile, done) => {
-
-
 
     if (userFound.length === 0){
       console.log('user not found');
