@@ -149,7 +149,7 @@
     "redux-thunk": "^2.3.0",
     "request": "^2.88.0",
     "scriptjs": "^2.5.9",
-    "sequelize": "^4.37.6",
+    "sequelize": "^5.15.1",
     "serialize-javascript": "^1.4.0",
     "serve-favicon": "2.4.5",
     "socket.io": "^2.1.1",
