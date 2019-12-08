@@ -150,7 +150,7 @@
     "request": "^2.88.0",
     "scriptjs": "^2.5.9",
     "sequelize": "^4.37.6",
-    "serialize-javascript": "^1.4.0",
+    "serialize-javascript": "^2.1.1",
     "serve-favicon": "2.4.5",
     "socket.io": "^2.1.1",
     "superagent": "^3.8.3",
