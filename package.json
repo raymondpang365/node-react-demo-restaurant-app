@@ -152,7 +152,7 @@
     "sequelize": "^4.37.6",
     "serialize-javascript": "^1.4.0",
     "serve-favicon": "2.4.5",
-    "socket.io": "^2.1.1",
+    "socket.io": "^2.4.0",
     "superagent": "^3.8.3",
     "uuid": "^3.2.1",
     "xoauth2": "^1.2.0"
